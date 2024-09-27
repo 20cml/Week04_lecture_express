@@ -7,10 +7,6 @@ app.get('/', (req, res) =>{
     res.send('Hello World');
 })
 
-app.get('/about', (req, res) =>{
-    res.send('About us');
-})
-
 // http://localhost:3000/
 app.post('/', (req, res) =>{
     res.post('POST - Hello World');
